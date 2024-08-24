@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Image Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="bg-container text-center col-md-6 col-lg-12 col-sm-6">
+                <h1 class="heading">Image Hunt.</h1>
+                <P class="tagLine">Images anywhere, everywhere.</P>
+                <form id="formContainer">
+                    <input type="text" id="searchText" placeholder="Search for Images">
+                    <button id="searchBtn" onclick="searchImages()">
+                        Search
+                    </button>
+                </form>
+                <div class="searchResults">
+                    <div class="searchResult" class="search-results">
+                        <img src="https://images.unsplash.com/photo-1545063914-a1a6ec821c88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="DeerImg" />
+                        <a href="https://unsplash.com/photos/favQn8WgRyk" target="_blank">Deer hiding in bushes.</a>
+                    </div>
+
+                    <div class="searchResult">
+                        <img src="https://images.unsplash.com/photo-1577996610876-3cee8d8fc281?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1112&q=80" alt="Humayun’s Tomb" />
+                        <a href="https://unsplash.com/photos/7UcFuU6AemI" target="_blank">Humayun’s Tomb.</a>
+                    </div>
+
+                    <div class="searchResult">
+                        <img src="https://images.unsplash.com/photo-1518398046578-8cca57782e17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="oldmanImg" />
+                        <a href="https://unsplash.com/photos/8UG90AYPDW4" target="_blank">Oldman seeking for kidness.</a>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button id="showMoreBtn" class="showmoreBtn"> Show more </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
